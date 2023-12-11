@@ -16,8 +16,13 @@
     ],
     "routes": [
       {
+<<<<<<< HEAD
         "src": "/(.*)",
         "dest": "marketplace/$1"
+=======
+        "src": "/static/(.*)",
+        "dest": "/static/$1"
+>>>>>>> f651a792a4c251822edfdbb157ce35338117587b
       },
       {
         "src": "/(.*)",
